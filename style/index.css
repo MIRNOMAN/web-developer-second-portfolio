@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -38,4 +41,64 @@ font-size: 40px;
     color: white;
     font-weight: 700;
     padding: 16px 35px;
+}
+
+
+/* main section style */
+.cntainer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.main-section-picture{
+    width: 300px;
+}
+.main-title{
+    font-size: 45px;
+}
+.main-description{
+    font-size: 25px;
+}
+.main-table > li{
+    list-style: none;
+    font-size: 18px;
+}
+.main-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* plan section */
+.plan-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 70px 70px;
+}
+.plan-info-pic{
+    width: 70px;
+}
+
+
+.box-menu{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-right: 50px;
+
+}
+.box-menu-section{
+    margin: 60px;
 }
